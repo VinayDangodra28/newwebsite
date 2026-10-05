@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ScrollReveal, GeoShape } from "../../../components/ui";
+import { ScrollReveal, GeoShape } from "@/components/ui";
 
 const autoPosts = [
   { title: 'The 6 automations every service business needs yesterday.', readTime: '6 min read', slug: '6-automations-every-service-business-needs', date: 'FEB 3, 2025' },

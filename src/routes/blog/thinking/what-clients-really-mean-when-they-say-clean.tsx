@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ScrollReveal, GeoShape } from "../../../../components/ui";
+import { ScrollReveal, GeoShape } from "@/components/ui";
 
 export const Route = createFileRoute("/blog/thinking/what-clients-really-mean-when-they-say-clean")({
   head: () => ({

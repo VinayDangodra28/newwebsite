@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ScrollReveal, GeoShape } from "../../../components/ui";
+import { ScrollReveal, GeoShape } from "@/components/ui";
 
 const thinkingPosts = [
   { title: 'Websites are only the beginning.', readTime: '5 min read', slug: 'websites-are-only-the-beginning', date: 'JAN 15, 2025' },

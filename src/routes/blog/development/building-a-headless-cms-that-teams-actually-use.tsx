@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ScrollReveal, GeoShape } from "../../../../components/ui";
+import { ScrollReveal, GeoShape } from "@/components/ui";
 
 export const Route = createFileRoute("/blog/development/building-a-headless-cms-that-teams-actually-use")({
   head: () => ({

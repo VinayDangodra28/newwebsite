@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ScrollReveal, GeoShape } from "../../../components/ui";
+import { ScrollReveal, GeoShape } from "@/components/ui";
 
 const designPosts = [
   { title: 'How a Swiss grid stops being a cage.', readTime: '4 min read', slug: 'swiss-grid-stops-being-a-cage', date: 'JAN 8, 2025' },

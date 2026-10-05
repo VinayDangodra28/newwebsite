@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ScrollReveal, GeoShape } from "../../../components/ui";
+import { ScrollReveal, GeoShape } from "@/components/ui";
 
 const devPosts = [
   { title: 'I rebuilt a CRM in 11 days. Here\'s the full architecture.', readTime: '8 min read', slug: 'rebuilt-a-crm-in-11-days', date: 'JAN 22, 2025' },
