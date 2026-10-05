@@ -9,73 +9,43 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as WorkRouteImport } from './routes/work'
-import { Route as LabRouteImport } from './routes/lab'
-import { Route as DevelopRouteImport } from './routes/develop'
-import { Route as DesignRouteImport } from './routes/design'
-import { Route as ContactRouteImport } from './routes/contact'
-import { Route as BlogRouteImport } from './routes/blog'
-import { Route as AutomateRouteImport } from './routes/automate'
-import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as WorkNorthFieldCrmRouteImport } from './routes/work/north-field-crm'
-import { Route as WorkMeridianAtelierRouteImport } from './routes/work/meridian-atelier'
-import { Route as WorkKairoStudioRouteImport } from './routes/work/kairo-studio'
-import { Route as WorkSlugRouteImport } from './routes/work/$slug'
-import { Route as BlogThinkingRouteImport } from './routes/blog/thinking'
-import { Route as BlogDevelopmentRouteImport } from './routes/blog/development'
-import { Route as BlogDesignRouteImport } from './routes/blog/design'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as AutomateRouteImport } from './routes/automate'
+import { Route as BlogRouteImport } from './routes/blog'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as DesignRouteImport } from './routes/design'
+import { Route as DevelopRouteImport } from './routes/develop'
+import { Route as LabRouteImport } from './routes/lab'
+import { Route as WorkRouteImport } from './routes/work'
 import { Route as BlogAutomationRouteImport } from './routes/blog/automation'
-import { Route as BlogThinkingWhyOnePersonCanOutBuildAnAgencyRouteImport } from './routes/blog/thinking/why-one-person-can-out-build-an-agency'
-import { Route as BlogThinkingWhatClientsReallyMeanWhenTheySayCleanRouteImport } from './routes/blog/thinking/what-clients-really-mean-when-they-say-clean'
-import { Route as BlogThinkingWebsitesAreOnlyTheBeginningRouteImport } from './routes/blog/thinking/websites-are-only-the-beginning'
-import { Route as BlogThinkingTheMostExpensiveHourInAnyProjectRouteImport } from './routes/blog/thinking/the-most-expensive-hour-in-any-project'
-import { Route as BlogDevelopmentWhyISwitchedFromGatsbyToNextjsRouteImport } from './routes/blog/development/why-i-switched-from-gatsby-to-nextjs'
-import { Route as BlogDevelopmentRebuiltACrmIn11DaysRouteImport } from './routes/blog/development/rebuilt-a-crm-in-11-days'
-import { Route as BlogDevelopmentBuildingAHeadlessCmsThatTeamsActuallyUseRouteImport } from './routes/blog/development/building-a-headless-cms-that-teams-actually-use'
-import { Route as BlogDevelopmentAnimatingSvgPathsWithIntentRouteImport } from './routes/blog/development/animating-svg-paths-with-intent'
-import { Route as BlogDesignWhyFigmaAutolayoutChangedEverythingRouteImport } from './routes/blog/design/why-figma-autolayout-changed-everything'
-import { Route as BlogDesignSwissGridStopsBeingACageRouteImport } from './routes/blog/design/swiss-grid-stops-being-a-cage'
-import { Route as BlogDesignMotionIsASentenceRouteImport } from './routes/blog/design/motion-is-a-sentence'
-import { Route as BlogDesignColorThatConvertsRouteImport } from './routes/blog/design/color-that-converts'
-import { Route as BlogAutomationMakeVsZapierHonestComparisonRouteImport } from './routes/blog/automation/make-vs-zapier-honest-comparison'
-import { Route as BlogAutomationKillTheSpreadsheetRouteImport } from './routes/blog/automation/kill-the-spreadsheet'
-import { Route as BlogAutomationHowIAutomatedMyClientOnboardingRouteImport } from './routes/blog/automation/how-i-automated-my-client-onboarding'
+import { Route as BlogDesignRouteImport } from './routes/blog/design'
+import { Route as BlogDevelopmentRouteImport } from './routes/blog/development'
+import { Route as BlogThinkingRouteImport } from './routes/blog/thinking'
+import { Route as WorkSlugRouteImport } from './routes/work/$slug'
+import { Route as WorkKairoStudioRouteImport } from './routes/work/kairo-studio'
+import { Route as WorkMeridianAtelierRouteImport } from './routes/work/meridian-atelier'
+import { Route as WorkNorthFieldCrmRouteImport } from './routes/work/north-field-crm'
 import { Route as BlogAutomation6AutomationsEveryServiceBusinessNeedsRouteImport } from './routes/blog/automation/6-automations-every-service-business-needs'
+import { Route as BlogAutomationHowIAutomatedMyClientOnboardingRouteImport } from './routes/blog/automation/how-i-automated-my-client-onboarding'
+import { Route as BlogAutomationKillTheSpreadsheetRouteImport } from './routes/blog/automation/kill-the-spreadsheet'
+import { Route as BlogAutomationMakeVsZapierHonestComparisonRouteImport } from './routes/blog/automation/make-vs-zapier-honest-comparison'
+import { Route as BlogDesignColorThatConvertsRouteImport } from './routes/blog/design/color-that-converts'
+import { Route as BlogDesignMotionIsASentenceRouteImport } from './routes/blog/design/motion-is-a-sentence'
+import { Route as BlogDesignSwissGridStopsBeingACageRouteImport } from './routes/blog/design/swiss-grid-stops-being-a-cage'
+import { Route as BlogDesignWhyFigmaAutolayoutChangedEverythingRouteImport } from './routes/blog/design/why-figma-autolayout-changed-everything'
+import { Route as BlogDevelopmentAnimatingSvgPathsWithIntentRouteImport } from './routes/blog/development/animating-svg-paths-with-intent'
+import { Route as BlogDevelopmentBuildingAHeadlessCmsThatTeamsActuallyUseRouteImport } from './routes/blog/development/building-a-headless-cms-that-teams-actually-use'
+import { Route as BlogDevelopmentRebuiltACrmIn11DaysRouteImport } from './routes/blog/development/rebuilt-a-crm-in-11-days'
+import { Route as BlogDevelopmentWhyISwitchedFromGatsbyToNextjsRouteImport } from './routes/blog/development/why-i-switched-from-gatsby-to-nextjs'
+import { Route as BlogThinkingTheMostExpensiveHourInAnyProjectRouteImport } from './routes/blog/thinking/the-most-expensive-hour-in-any-project'
+import { Route as BlogThinkingWebsitesAreOnlyTheBeginningRouteImport } from './routes/blog/thinking/websites-are-only-the-beginning'
+import { Route as BlogThinkingWhatClientsReallyMeanWhenTheySayCleanRouteImport } from './routes/blog/thinking/what-clients-really-mean-when-they-say-clean'
+import { Route as BlogThinkingWhyOnePersonCanOutBuildAnAgencyRouteImport } from './routes/blog/thinking/why-one-person-can-out-build-an-agency'
 
-const WorkRoute = WorkRouteImport.update({
-  id: '/work',
-  path: '/work',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const LabRoute = LabRouteImport.update({
-  id: '/lab',
-  path: '/lab',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DevelopRoute = DevelopRouteImport.update({
-  id: '/develop',
-  path: '/develop',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DesignRoute = DesignRouteImport.update({
-  id: '/design',
-  path: '/design',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ContactRoute = ContactRouteImport.update({
-  id: '/contact',
-  path: '/contact',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const BlogRoute = BlogRouteImport.update({
-  id: '/blog',
-  path: '/blog',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const AutomateRoute = AutomateRouteImport.update({
-  id: '/automate',
-  path: '/automate',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AboutRoute = AboutRouteImport.update({
@@ -83,39 +53,44 @@ const AboutRoute = AboutRouteImport.update({
   path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const AutomateRoute = AutomateRouteImport.update({
+  id: '/automate',
+  path: '/automate',
   getParentRoute: () => rootRouteImport,
 } as any)
-const WorkNorthFieldCrmRoute = WorkNorthFieldCrmRouteImport.update({
-  id: '/north-field-crm',
-  path: '/north-field-crm',
-  getParentRoute: () => WorkRoute,
+const BlogRoute = BlogRouteImport.update({
+  id: '/blog',
+  path: '/blog',
+  getParentRoute: () => rootRouteImport,
 } as any)
-const WorkMeridianAtelierRoute = WorkMeridianAtelierRouteImport.update({
-  id: '/meridian-atelier',
-  path: '/meridian-atelier',
-  getParentRoute: () => WorkRoute,
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
 } as any)
-const WorkKairoStudioRoute = WorkKairoStudioRouteImport.update({
-  id: '/kairo-studio',
-  path: '/kairo-studio',
-  getParentRoute: () => WorkRoute,
+const DesignRoute = DesignRouteImport.update({
+  id: '/design',
+  path: '/design',
+  getParentRoute: () => rootRouteImport,
 } as any)
-const WorkSlugRoute = WorkSlugRouteImport.update({
-  id: '/$slug',
-  path: '/$slug',
-  getParentRoute: () => WorkRoute,
+const DevelopRoute = DevelopRouteImport.update({
+  id: '/develop',
+  path: '/develop',
+  getParentRoute: () => rootRouteImport,
 } as any)
-const BlogThinkingRoute = BlogThinkingRouteImport.update({
-  id: '/thinking',
-  path: '/thinking',
-  getParentRoute: () => BlogRoute,
+const LabRoute = LabRouteImport.update({
+  id: '/lab',
+  path: '/lab',
+  getParentRoute: () => rootRouteImport,
 } as any)
-const BlogDevelopmentRoute = BlogDevelopmentRouteImport.update({
-  id: '/development',
-  path: '/development',
+const WorkRoute = WorkRouteImport.update({
+  id: '/work',
+  path: '/work',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BlogAutomationRoute = BlogAutomationRouteImport.update({
+  id: '/automation',
+  path: '/automation',
   getParentRoute: () => BlogRoute,
 } as any)
 const BlogDesignRoute = BlogDesignRouteImport.update({
@@ -123,93 +98,40 @@ const BlogDesignRoute = BlogDesignRouteImport.update({
   path: '/design',
   getParentRoute: () => BlogRoute,
 } as any)
-const BlogAutomationRoute = BlogAutomationRouteImport.update({
-  id: '/automation',
-  path: '/automation',
+const BlogDevelopmentRoute = BlogDevelopmentRouteImport.update({
+  id: '/development',
+  path: '/development',
   getParentRoute: () => BlogRoute,
 } as any)
-const BlogThinkingWhyOnePersonCanOutBuildAnAgencyRoute =
-  BlogThinkingWhyOnePersonCanOutBuildAnAgencyRouteImport.update({
-    id: '/why-one-person-can-out-build-an-agency',
-    path: '/why-one-person-can-out-build-an-agency',
-    getParentRoute: () => BlogThinkingRoute,
-  } as any)
-const BlogThinkingWhatClientsReallyMeanWhenTheySayCleanRoute =
-  BlogThinkingWhatClientsReallyMeanWhenTheySayCleanRouteImport.update({
-    id: '/what-clients-really-mean-when-they-say-clean',
-    path: '/what-clients-really-mean-when-they-say-clean',
-    getParentRoute: () => BlogThinkingRoute,
-  } as any)
-const BlogThinkingWebsitesAreOnlyTheBeginningRoute =
-  BlogThinkingWebsitesAreOnlyTheBeginningRouteImport.update({
-    id: '/websites-are-only-the-beginning',
-    path: '/websites-are-only-the-beginning',
-    getParentRoute: () => BlogThinkingRoute,
-  } as any)
-const BlogThinkingTheMostExpensiveHourInAnyProjectRoute =
-  BlogThinkingTheMostExpensiveHourInAnyProjectRouteImport.update({
-    id: '/the-most-expensive-hour-in-any-project',
-    path: '/the-most-expensive-hour-in-any-project',
-    getParentRoute: () => BlogThinkingRoute,
-  } as any)
-const BlogDevelopmentWhyISwitchedFromGatsbyToNextjsRoute =
-  BlogDevelopmentWhyISwitchedFromGatsbyToNextjsRouteImport.update({
-    id: '/why-i-switched-from-gatsby-to-nextjs',
-    path: '/why-i-switched-from-gatsby-to-nextjs',
-    getParentRoute: () => BlogDevelopmentRoute,
-  } as any)
-const BlogDevelopmentRebuiltACrmIn11DaysRoute =
-  BlogDevelopmentRebuiltACrmIn11DaysRouteImport.update({
-    id: '/rebuilt-a-crm-in-11-days',
-    path: '/rebuilt-a-crm-in-11-days',
-    getParentRoute: () => BlogDevelopmentRoute,
-  } as any)
-const BlogDevelopmentBuildingAHeadlessCmsThatTeamsActuallyUseRoute =
-  BlogDevelopmentBuildingAHeadlessCmsThatTeamsActuallyUseRouteImport.update({
-    id: '/building-a-headless-cms-that-teams-actually-use',
-    path: '/building-a-headless-cms-that-teams-actually-use',
-    getParentRoute: () => BlogDevelopmentRoute,
-  } as any)
-const BlogDevelopmentAnimatingSvgPathsWithIntentRoute =
-  BlogDevelopmentAnimatingSvgPathsWithIntentRouteImport.update({
-    id: '/animating-svg-paths-with-intent',
-    path: '/animating-svg-paths-with-intent',
-    getParentRoute: () => BlogDevelopmentRoute,
-  } as any)
-const BlogDesignWhyFigmaAutolayoutChangedEverythingRoute =
-  BlogDesignWhyFigmaAutolayoutChangedEverythingRouteImport.update({
-    id: '/why-figma-autolayout-changed-everything',
-    path: '/why-figma-autolayout-changed-everything',
-    getParentRoute: () => BlogDesignRoute,
-  } as any)
-const BlogDesignSwissGridStopsBeingACageRoute =
-  BlogDesignSwissGridStopsBeingACageRouteImport.update({
-    id: '/swiss-grid-stops-being-a-cage',
-    path: '/swiss-grid-stops-being-a-cage',
-    getParentRoute: () => BlogDesignRoute,
-  } as any)
-const BlogDesignMotionIsASentenceRoute =
-  BlogDesignMotionIsASentenceRouteImport.update({
-    id: '/motion-is-a-sentence',
-    path: '/motion-is-a-sentence',
-    getParentRoute: () => BlogDesignRoute,
-  } as any)
-const BlogDesignColorThatConvertsRoute =
-  BlogDesignColorThatConvertsRouteImport.update({
-    id: '/color-that-converts',
-    path: '/color-that-converts',
-    getParentRoute: () => BlogDesignRoute,
-  } as any)
-const BlogAutomationMakeVsZapierHonestComparisonRoute =
-  BlogAutomationMakeVsZapierHonestComparisonRouteImport.update({
-    id: '/make-vs-zapier-honest-comparison',
-    path: '/make-vs-zapier-honest-comparison',
-    getParentRoute: () => BlogAutomationRoute,
-  } as any)
-const BlogAutomationKillTheSpreadsheetRoute =
-  BlogAutomationKillTheSpreadsheetRouteImport.update({
-    id: '/kill-the-spreadsheet',
-    path: '/kill-the-spreadsheet',
+const BlogThinkingRoute = BlogThinkingRouteImport.update({
+  id: '/thinking',
+  path: '/thinking',
+  getParentRoute: () => BlogRoute,
+} as any)
+const WorkSlugRoute = WorkSlugRouteImport.update({
+  id: '/$slug',
+  path: '/$slug',
+  getParentRoute: () => WorkRoute,
+} as any)
+const WorkKairoStudioRoute = WorkKairoStudioRouteImport.update({
+  id: '/kairo-studio',
+  path: '/kairo-studio',
+  getParentRoute: () => WorkRoute,
+} as any)
+const WorkMeridianAtelierRoute = WorkMeridianAtelierRouteImport.update({
+  id: '/meridian-atelier',
+  path: '/meridian-atelier',
+  getParentRoute: () => WorkRoute,
+} as any)
+const WorkNorthFieldCrmRoute = WorkNorthFieldCrmRouteImport.update({
+  id: '/north-field-crm',
+  path: '/north-field-crm',
+  getParentRoute: () => WorkRoute,
+} as any)
+const BlogAutomation6AutomationsEveryServiceBusinessNeedsRoute =
+  BlogAutomation6AutomationsEveryServiceBusinessNeedsRouteImport.update({
+    id: '/6-automations-every-service-business-needs',
+    path: '/6-automations-every-service-business-needs',
     getParentRoute: () => BlogAutomationRoute,
   } as any)
 const BlogAutomationHowIAutomatedMyClientOnboardingRoute =
@@ -218,11 +140,89 @@ const BlogAutomationHowIAutomatedMyClientOnboardingRoute =
     path: '/how-i-automated-my-client-onboarding',
     getParentRoute: () => BlogAutomationRoute,
   } as any)
-const BlogAutomation6AutomationsEveryServiceBusinessNeedsRoute =
-  BlogAutomation6AutomationsEveryServiceBusinessNeedsRouteImport.update({
-    id: '/6-automations-every-service-business-needs',
-    path: '/6-automations-every-service-business-needs',
+const BlogAutomationKillTheSpreadsheetRoute =
+  BlogAutomationKillTheSpreadsheetRouteImport.update({
+    id: '/kill-the-spreadsheet',
+    path: '/kill-the-spreadsheet',
     getParentRoute: () => BlogAutomationRoute,
+  } as any)
+const BlogAutomationMakeVsZapierHonestComparisonRoute =
+  BlogAutomationMakeVsZapierHonestComparisonRouteImport.update({
+    id: '/make-vs-zapier-honest-comparison',
+    path: '/make-vs-zapier-honest-comparison',
+    getParentRoute: () => BlogAutomationRoute,
+  } as any)
+const BlogDesignColorThatConvertsRoute =
+  BlogDesignColorThatConvertsRouteImport.update({
+    id: '/color-that-converts',
+    path: '/color-that-converts',
+    getParentRoute: () => BlogDesignRoute,
+  } as any)
+const BlogDesignMotionIsASentenceRoute =
+  BlogDesignMotionIsASentenceRouteImport.update({
+    id: '/motion-is-a-sentence',
+    path: '/motion-is-a-sentence',
+    getParentRoute: () => BlogDesignRoute,
+  } as any)
+const BlogDesignSwissGridStopsBeingACageRoute =
+  BlogDesignSwissGridStopsBeingACageRouteImport.update({
+    id: '/swiss-grid-stops-being-a-cage',
+    path: '/swiss-grid-stops-being-a-cage',
+    getParentRoute: () => BlogDesignRoute,
+  } as any)
+const BlogDesignWhyFigmaAutolayoutChangedEverythingRoute =
+  BlogDesignWhyFigmaAutolayoutChangedEverythingRouteImport.update({
+    id: '/why-figma-autolayout-changed-everything',
+    path: '/why-figma-autolayout-changed-everything',
+    getParentRoute: () => BlogDesignRoute,
+  } as any)
+const BlogDevelopmentAnimatingSvgPathsWithIntentRoute =
+  BlogDevelopmentAnimatingSvgPathsWithIntentRouteImport.update({
+    id: '/animating-svg-paths-with-intent',
+    path: '/animating-svg-paths-with-intent',
+    getParentRoute: () => BlogDevelopmentRoute,
+  } as any)
+const BlogDevelopmentBuildingAHeadlessCmsThatTeamsActuallyUseRoute =
+  BlogDevelopmentBuildingAHeadlessCmsThatTeamsActuallyUseRouteImport.update({
+    id: '/building-a-headless-cms-that-teams-actually-use',
+    path: '/building-a-headless-cms-that-teams-actually-use',
+    getParentRoute: () => BlogDevelopmentRoute,
+  } as any)
+const BlogDevelopmentRebuiltACrmIn11DaysRoute =
+  BlogDevelopmentRebuiltACrmIn11DaysRouteImport.update({
+    id: '/rebuilt-a-crm-in-11-days',
+    path: '/rebuilt-a-crm-in-11-days',
+    getParentRoute: () => BlogDevelopmentRoute,
+  } as any)
+const BlogDevelopmentWhyISwitchedFromGatsbyToNextjsRoute =
+  BlogDevelopmentWhyISwitchedFromGatsbyToNextjsRouteImport.update({
+    id: '/why-i-switched-from-gatsby-to-nextjs',
+    path: '/why-i-switched-from-gatsby-to-nextjs',
+    getParentRoute: () => BlogDevelopmentRoute,
+  } as any)
+const BlogThinkingTheMostExpensiveHourInAnyProjectRoute =
+  BlogThinkingTheMostExpensiveHourInAnyProjectRouteImport.update({
+    id: '/the-most-expensive-hour-in-any-project',
+    path: '/the-most-expensive-hour-in-any-project',
+    getParentRoute: () => BlogThinkingRoute,
+  } as any)
+const BlogThinkingWebsitesAreOnlyTheBeginningRoute =
+  BlogThinkingWebsitesAreOnlyTheBeginningRouteImport.update({
+    id: '/websites-are-only-the-beginning',
+    path: '/websites-are-only-the-beginning',
+    getParentRoute: () => BlogThinkingRoute,
+  } as any)
+const BlogThinkingWhatClientsReallyMeanWhenTheySayCleanRoute =
+  BlogThinkingWhatClientsReallyMeanWhenTheySayCleanRouteImport.update({
+    id: '/what-clients-really-mean-when-they-say-clean',
+    path: '/what-clients-really-mean-when-they-say-clean',
+    getParentRoute: () => BlogThinkingRoute,
+  } as any)
+const BlogThinkingWhyOnePersonCanOutBuildAnAgencyRoute =
+  BlogThinkingWhyOnePersonCanOutBuildAnAgencyRouteImport.update({
+    id: '/why-one-person-can-out-build-an-agency',
+    path: '/why-one-person-can-out-build-an-agency',
+    getParentRoute: () => BlogThinkingRoute,
   } as any)
 
 export interface FileRoutesByFullPath {
@@ -453,53 +453,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/work': {
-      id: '/work'
-      path: '/work'
-      fullPath: '/work'
-      preLoaderRoute: typeof WorkRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/lab': {
-      id: '/lab'
-      path: '/lab'
-      fullPath: '/lab'
-      preLoaderRoute: typeof LabRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/develop': {
-      id: '/develop'
-      path: '/develop'
-      fullPath: '/develop'
-      preLoaderRoute: typeof DevelopRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/design': {
-      id: '/design'
-      path: '/design'
-      fullPath: '/design'
-      preLoaderRoute: typeof DesignRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/contact': {
-      id: '/contact'
-      path: '/contact'
-      fullPath: '/contact'
-      preLoaderRoute: typeof ContactRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/blog': {
-      id: '/blog'
-      path: '/blog'
-      fullPath: '/blog'
-      preLoaderRoute: typeof BlogRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/automate': {
-      id: '/automate'
-      path: '/automate'
-      fullPath: '/automate'
-      preLoaderRoute: typeof AutomateRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/about': {
@@ -509,53 +467,60 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/automate': {
+      id: '/automate'
+      path: '/automate'
+      fullPath: '/automate'
+      preLoaderRoute: typeof AutomateRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/work/north-field-crm': {
-      id: '/work/north-field-crm'
-      path: '/north-field-crm'
-      fullPath: '/work/north-field-crm'
-      preLoaderRoute: typeof WorkNorthFieldCrmRouteImport
-      parentRoute: typeof WorkRoute
+    '/blog': {
+      id: '/blog'
+      path: '/blog'
+      fullPath: '/blog'
+      preLoaderRoute: typeof BlogRouteImport
+      parentRoute: typeof rootRouteImport
     }
-    '/work/meridian-atelier': {
-      id: '/work/meridian-atelier'
-      path: '/meridian-atelier'
-      fullPath: '/work/meridian-atelier'
-      preLoaderRoute: typeof WorkMeridianAtelierRouteImport
-      parentRoute: typeof WorkRoute
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
     }
-    '/work/kairo-studio': {
-      id: '/work/kairo-studio'
-      path: '/kairo-studio'
-      fullPath: '/work/kairo-studio'
-      preLoaderRoute: typeof WorkKairoStudioRouteImport
-      parentRoute: typeof WorkRoute
+    '/design': {
+      id: '/design'
+      path: '/design'
+      fullPath: '/design'
+      preLoaderRoute: typeof DesignRouteImport
+      parentRoute: typeof rootRouteImport
     }
-    '/work/$slug': {
-      id: '/work/$slug'
-      path: '/$slug'
-      fullPath: '/work/$slug'
-      preLoaderRoute: typeof WorkSlugRouteImport
-      parentRoute: typeof WorkRoute
+    '/develop': {
+      id: '/develop'
+      path: '/develop'
+      fullPath: '/develop'
+      preLoaderRoute: typeof DevelopRouteImport
+      parentRoute: typeof rootRouteImport
     }
-    '/blog/thinking': {
-      id: '/blog/thinking'
-      path: '/thinking'
-      fullPath: '/blog/thinking'
-      preLoaderRoute: typeof BlogThinkingRouteImport
-      parentRoute: typeof BlogRoute
+    '/lab': {
+      id: '/lab'
+      path: '/lab'
+      fullPath: '/lab'
+      preLoaderRoute: typeof LabRouteImport
+      parentRoute: typeof rootRouteImport
     }
-    '/blog/development': {
-      id: '/blog/development'
-      path: '/development'
-      fullPath: '/blog/development'
-      preLoaderRoute: typeof BlogDevelopmentRouteImport
+    '/work': {
+      id: '/work'
+      path: '/work'
+      fullPath: '/work'
+      preLoaderRoute: typeof WorkRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/blog/automation': {
+      id: '/blog/automation'
+      path: '/automation'
+      fullPath: '/blog/automation'
+      preLoaderRoute: typeof BlogAutomationRouteImport
       parentRoute: typeof BlogRoute
     }
     '/blog/design': {
@@ -565,109 +530,53 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogDesignRouteImport
       parentRoute: typeof BlogRoute
     }
-    '/blog/automation': {
-      id: '/blog/automation'
-      path: '/automation'
-      fullPath: '/blog/automation'
-      preLoaderRoute: typeof BlogAutomationRouteImport
+    '/blog/development': {
+      id: '/blog/development'
+      path: '/development'
+      fullPath: '/blog/development'
+      preLoaderRoute: typeof BlogDevelopmentRouteImport
       parentRoute: typeof BlogRoute
     }
-    '/blog/thinking/why-one-person-can-out-build-an-agency': {
-      id: '/blog/thinking/why-one-person-can-out-build-an-agency'
-      path: '/why-one-person-can-out-build-an-agency'
-      fullPath: '/blog/thinking/why-one-person-can-out-build-an-agency'
-      preLoaderRoute: typeof BlogThinkingWhyOnePersonCanOutBuildAnAgencyRouteImport
-      parentRoute: typeof BlogThinkingRoute
+    '/blog/thinking': {
+      id: '/blog/thinking'
+      path: '/thinking'
+      fullPath: '/blog/thinking'
+      preLoaderRoute: typeof BlogThinkingRouteImport
+      parentRoute: typeof BlogRoute
     }
-    '/blog/thinking/what-clients-really-mean-when-they-say-clean': {
-      id: '/blog/thinking/what-clients-really-mean-when-they-say-clean'
-      path: '/what-clients-really-mean-when-they-say-clean'
-      fullPath: '/blog/thinking/what-clients-really-mean-when-they-say-clean'
-      preLoaderRoute: typeof BlogThinkingWhatClientsReallyMeanWhenTheySayCleanRouteImport
-      parentRoute: typeof BlogThinkingRoute
+    '/work/$slug': {
+      id: '/work/$slug'
+      path: '/$slug'
+      fullPath: '/work/$slug'
+      preLoaderRoute: typeof WorkSlugRouteImport
+      parentRoute: typeof WorkRoute
     }
-    '/blog/thinking/websites-are-only-the-beginning': {
-      id: '/blog/thinking/websites-are-only-the-beginning'
-      path: '/websites-are-only-the-beginning'
-      fullPath: '/blog/thinking/websites-are-only-the-beginning'
-      preLoaderRoute: typeof BlogThinkingWebsitesAreOnlyTheBeginningRouteImport
-      parentRoute: typeof BlogThinkingRoute
+    '/work/kairo-studio': {
+      id: '/work/kairo-studio'
+      path: '/kairo-studio'
+      fullPath: '/work/kairo-studio'
+      preLoaderRoute: typeof WorkKairoStudioRouteImport
+      parentRoute: typeof WorkRoute
     }
-    '/blog/thinking/the-most-expensive-hour-in-any-project': {
-      id: '/blog/thinking/the-most-expensive-hour-in-any-project'
-      path: '/the-most-expensive-hour-in-any-project'
-      fullPath: '/blog/thinking/the-most-expensive-hour-in-any-project'
-      preLoaderRoute: typeof BlogThinkingTheMostExpensiveHourInAnyProjectRouteImport
-      parentRoute: typeof BlogThinkingRoute
+    '/work/meridian-atelier': {
+      id: '/work/meridian-atelier'
+      path: '/meridian-atelier'
+      fullPath: '/work/meridian-atelier'
+      preLoaderRoute: typeof WorkMeridianAtelierRouteImport
+      parentRoute: typeof WorkRoute
     }
-    '/blog/development/why-i-switched-from-gatsby-to-nextjs': {
-      id: '/blog/development/why-i-switched-from-gatsby-to-nextjs'
-      path: '/why-i-switched-from-gatsby-to-nextjs'
-      fullPath: '/blog/development/why-i-switched-from-gatsby-to-nextjs'
-      preLoaderRoute: typeof BlogDevelopmentWhyISwitchedFromGatsbyToNextjsRouteImport
-      parentRoute: typeof BlogDevelopmentRoute
+    '/work/north-field-crm': {
+      id: '/work/north-field-crm'
+      path: '/north-field-crm'
+      fullPath: '/work/north-field-crm'
+      preLoaderRoute: typeof WorkNorthFieldCrmRouteImport
+      parentRoute: typeof WorkRoute
     }
-    '/blog/development/rebuilt-a-crm-in-11-days': {
-      id: '/blog/development/rebuilt-a-crm-in-11-days'
-      path: '/rebuilt-a-crm-in-11-days'
-      fullPath: '/blog/development/rebuilt-a-crm-in-11-days'
-      preLoaderRoute: typeof BlogDevelopmentRebuiltACrmIn11DaysRouteImport
-      parentRoute: typeof BlogDevelopmentRoute
-    }
-    '/blog/development/building-a-headless-cms-that-teams-actually-use': {
-      id: '/blog/development/building-a-headless-cms-that-teams-actually-use'
-      path: '/building-a-headless-cms-that-teams-actually-use'
-      fullPath: '/blog/development/building-a-headless-cms-that-teams-actually-use'
-      preLoaderRoute: typeof BlogDevelopmentBuildingAHeadlessCmsThatTeamsActuallyUseRouteImport
-      parentRoute: typeof BlogDevelopmentRoute
-    }
-    '/blog/development/animating-svg-paths-with-intent': {
-      id: '/blog/development/animating-svg-paths-with-intent'
-      path: '/animating-svg-paths-with-intent'
-      fullPath: '/blog/development/animating-svg-paths-with-intent'
-      preLoaderRoute: typeof BlogDevelopmentAnimatingSvgPathsWithIntentRouteImport
-      parentRoute: typeof BlogDevelopmentRoute
-    }
-    '/blog/design/why-figma-autolayout-changed-everything': {
-      id: '/blog/design/why-figma-autolayout-changed-everything'
-      path: '/why-figma-autolayout-changed-everything'
-      fullPath: '/blog/design/why-figma-autolayout-changed-everything'
-      preLoaderRoute: typeof BlogDesignWhyFigmaAutolayoutChangedEverythingRouteImport
-      parentRoute: typeof BlogDesignRoute
-    }
-    '/blog/design/swiss-grid-stops-being-a-cage': {
-      id: '/blog/design/swiss-grid-stops-being-a-cage'
-      path: '/swiss-grid-stops-being-a-cage'
-      fullPath: '/blog/design/swiss-grid-stops-being-a-cage'
-      preLoaderRoute: typeof BlogDesignSwissGridStopsBeingACageRouteImport
-      parentRoute: typeof BlogDesignRoute
-    }
-    '/blog/design/motion-is-a-sentence': {
-      id: '/blog/design/motion-is-a-sentence'
-      path: '/motion-is-a-sentence'
-      fullPath: '/blog/design/motion-is-a-sentence'
-      preLoaderRoute: typeof BlogDesignMotionIsASentenceRouteImport
-      parentRoute: typeof BlogDesignRoute
-    }
-    '/blog/design/color-that-converts': {
-      id: '/blog/design/color-that-converts'
-      path: '/color-that-converts'
-      fullPath: '/blog/design/color-that-converts'
-      preLoaderRoute: typeof BlogDesignColorThatConvertsRouteImport
-      parentRoute: typeof BlogDesignRoute
-    }
-    '/blog/automation/make-vs-zapier-honest-comparison': {
-      id: '/blog/automation/make-vs-zapier-honest-comparison'
-      path: '/make-vs-zapier-honest-comparison'
-      fullPath: '/blog/automation/make-vs-zapier-honest-comparison'
-      preLoaderRoute: typeof BlogAutomationMakeVsZapierHonestComparisonRouteImport
-      parentRoute: typeof BlogAutomationRoute
-    }
-    '/blog/automation/kill-the-spreadsheet': {
-      id: '/blog/automation/kill-the-spreadsheet'
-      path: '/kill-the-spreadsheet'
-      fullPath: '/blog/automation/kill-the-spreadsheet'
-      preLoaderRoute: typeof BlogAutomationKillTheSpreadsheetRouteImport
+    '/blog/automation/6-automations-every-service-business-needs': {
+      id: '/blog/automation/6-automations-every-service-business-needs'
+      path: '/6-automations-every-service-business-needs'
+      fullPath: '/blog/automation/6-automations-every-service-business-needs'
+      preLoaderRoute: typeof BlogAutomation6AutomationsEveryServiceBusinessNeedsRouteImport
       parentRoute: typeof BlogAutomationRoute
     }
     '/blog/automation/how-i-automated-my-client-onboarding': {
@@ -677,12 +586,103 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogAutomationHowIAutomatedMyClientOnboardingRouteImport
       parentRoute: typeof BlogAutomationRoute
     }
-    '/blog/automation/6-automations-every-service-business-needs': {
-      id: '/blog/automation/6-automations-every-service-business-needs'
-      path: '/6-automations-every-service-business-needs'
-      fullPath: '/blog/automation/6-automations-every-service-business-needs'
-      preLoaderRoute: typeof BlogAutomation6AutomationsEveryServiceBusinessNeedsRouteImport
+    '/blog/automation/kill-the-spreadsheet': {
+      id: '/blog/automation/kill-the-spreadsheet'
+      path: '/kill-the-spreadsheet'
+      fullPath: '/blog/automation/kill-the-spreadsheet'
+      preLoaderRoute: typeof BlogAutomationKillTheSpreadsheetRouteImport
       parentRoute: typeof BlogAutomationRoute
+    }
+    '/blog/automation/make-vs-zapier-honest-comparison': {
+      id: '/blog/automation/make-vs-zapier-honest-comparison'
+      path: '/make-vs-zapier-honest-comparison'
+      fullPath: '/blog/automation/make-vs-zapier-honest-comparison'
+      preLoaderRoute: typeof BlogAutomationMakeVsZapierHonestComparisonRouteImport
+      parentRoute: typeof BlogAutomationRoute
+    }
+    '/blog/design/color-that-converts': {
+      id: '/blog/design/color-that-converts'
+      path: '/color-that-converts'
+      fullPath: '/blog/design/color-that-converts'
+      preLoaderRoute: typeof BlogDesignColorThatConvertsRouteImport
+      parentRoute: typeof BlogDesignRoute
+    }
+    '/blog/design/motion-is-a-sentence': {
+      id: '/blog/design/motion-is-a-sentence'
+      path: '/motion-is-a-sentence'
+      fullPath: '/blog/design/motion-is-a-sentence'
+      preLoaderRoute: typeof BlogDesignMotionIsASentenceRouteImport
+      parentRoute: typeof BlogDesignRoute
+    }
+    '/blog/design/swiss-grid-stops-being-a-cage': {
+      id: '/blog/design/swiss-grid-stops-being-a-cage'
+      path: '/swiss-grid-stops-being-a-cage'
+      fullPath: '/blog/design/swiss-grid-stops-being-a-cage'
+      preLoaderRoute: typeof BlogDesignSwissGridStopsBeingACageRouteImport
+      parentRoute: typeof BlogDesignRoute
+    }
+    '/blog/design/why-figma-autolayout-changed-everything': {
+      id: '/blog/design/why-figma-autolayout-changed-everything'
+      path: '/why-figma-autolayout-changed-everything'
+      fullPath: '/blog/design/why-figma-autolayout-changed-everything'
+      preLoaderRoute: typeof BlogDesignWhyFigmaAutolayoutChangedEverythingRouteImport
+      parentRoute: typeof BlogDesignRoute
+    }
+    '/blog/development/animating-svg-paths-with-intent': {
+      id: '/blog/development/animating-svg-paths-with-intent'
+      path: '/animating-svg-paths-with-intent'
+      fullPath: '/blog/development/animating-svg-paths-with-intent'
+      preLoaderRoute: typeof BlogDevelopmentAnimatingSvgPathsWithIntentRouteImport
+      parentRoute: typeof BlogDevelopmentRoute
+    }
+    '/blog/development/building-a-headless-cms-that-teams-actually-use': {
+      id: '/blog/development/building-a-headless-cms-that-teams-actually-use'
+      path: '/building-a-headless-cms-that-teams-actually-use'
+      fullPath: '/blog/development/building-a-headless-cms-that-teams-actually-use'
+      preLoaderRoute: typeof BlogDevelopmentBuildingAHeadlessCmsThatTeamsActuallyUseRouteImport
+      parentRoute: typeof BlogDevelopmentRoute
+    }
+    '/blog/development/rebuilt-a-crm-in-11-days': {
+      id: '/blog/development/rebuilt-a-crm-in-11-days'
+      path: '/rebuilt-a-crm-in-11-days'
+      fullPath: '/blog/development/rebuilt-a-crm-in-11-days'
+      preLoaderRoute: typeof BlogDevelopmentRebuiltACrmIn11DaysRouteImport
+      parentRoute: typeof BlogDevelopmentRoute
+    }
+    '/blog/development/why-i-switched-from-gatsby-to-nextjs': {
+      id: '/blog/development/why-i-switched-from-gatsby-to-nextjs'
+      path: '/why-i-switched-from-gatsby-to-nextjs'
+      fullPath: '/blog/development/why-i-switched-from-gatsby-to-nextjs'
+      preLoaderRoute: typeof BlogDevelopmentWhyISwitchedFromGatsbyToNextjsRouteImport
+      parentRoute: typeof BlogDevelopmentRoute
+    }
+    '/blog/thinking/the-most-expensive-hour-in-any-project': {
+      id: '/blog/thinking/the-most-expensive-hour-in-any-project'
+      path: '/the-most-expensive-hour-in-any-project'
+      fullPath: '/blog/thinking/the-most-expensive-hour-in-any-project'
+      preLoaderRoute: typeof BlogThinkingTheMostExpensiveHourInAnyProjectRouteImport
+      parentRoute: typeof BlogThinkingRoute
+    }
+    '/blog/thinking/websites-are-only-the-beginning': {
+      id: '/blog/thinking/websites-are-only-the-beginning'
+      path: '/websites-are-only-the-beginning'
+      fullPath: '/blog/thinking/websites-are-only-the-beginning'
+      preLoaderRoute: typeof BlogThinkingWebsitesAreOnlyTheBeginningRouteImport
+      parentRoute: typeof BlogThinkingRoute
+    }
+    '/blog/thinking/what-clients-really-mean-when-they-say-clean': {
+      id: '/blog/thinking/what-clients-really-mean-when-they-say-clean'
+      path: '/what-clients-really-mean-when-they-say-clean'
+      fullPath: '/blog/thinking/what-clients-really-mean-when-they-say-clean'
+      preLoaderRoute: typeof BlogThinkingWhatClientsReallyMeanWhenTheySayCleanRouteImport
+      parentRoute: typeof BlogThinkingRoute
+    }
+    '/blog/thinking/why-one-person-can-out-build-an-agency': {
+      id: '/blog/thinking/why-one-person-can-out-build-an-agency'
+      path: '/why-one-person-can-out-build-an-agency'
+      fullPath: '/blog/thinking/why-one-person-can-out-build-an-agency'
+      preLoaderRoute: typeof BlogThinkingWhyOnePersonCanOutBuildAnAgencyRouteImport
+      parentRoute: typeof BlogThinkingRoute
     }
   }
 }
